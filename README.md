@@ -21,6 +21,7 @@ Something to track my progress and completion of my projects
   <div class="milestone" id="reward1">🎁 7 Days: Not yet</div>
   <div class="milestone" id="reward2">🎁 21 Days: Not yet</div>
   <div class="milestone" id="reward3">🎁 49 Days: Not yet</div>
+   <div class="milestone" id="reward4">🎁 105 Days: Not yet</div>
 
   <script>
     const today = new Date().toDateString();
@@ -43,7 +44,8 @@ Something to track my progress and completion of my projects
 
       if (streak >= 7) document.getElementById("reward1").innerHTML = "🎉 7 Days: <span class='done'>$100 reward unlocked!</span>";
       if (streak >= 21) document.getElementById("reward2").innerHTML = "🎉 21 Days: <span class='done'>$200 reward unlocked!</span>";
-      if (streak >= 49) document.getElementById("reward3").innerHTML = "🎉 49 Days: <span class='done'>$300 reward unlocked!</span>";
+      if (streak >= 49) document.getElementById("reward3").innerHTML = "🎉 49 Days: <span class='done'>$400 reward unlocked!</span>";
+      if (streak >= 105) document.getElementById("reward3").innerHTML = "🎉 105 Days: <span class='done'>$800 reward unlocked!</span>";
     }
 
     updateDisplay();
